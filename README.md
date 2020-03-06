@@ -8,4 +8,4 @@ Right now the paths in the .vscode json are hardcoded for my osx configuration. 
 This was tested with an esp32-wroom and a ESP-prog JTAG dongle.  Both devices were plugged into usb to my MBP.  The json configuration
 references those ports explicitly.
 
-This requires openocd which must be installed as part of the esp-idf tool suite.
+This requires openocd as well as the Arduino IDE which must be installed as part of the esp-idf tool suite.
