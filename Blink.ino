@@ -22,6 +22,7 @@
   http://www.arduino.cc/en/Tutorial/Blink
 */
 #define LED_BUILTIN 5
+// explicit include required here for vscode syntax checking to succeed
 #include <HardwareSerial.h>
 
 // the setup function runs once when you press reset or power the board
@@ -32,6 +33,7 @@ void setup()
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
+// create a silly variable to watch in the debugger
 int foo = 0;
 
 // the loop function runs over and over again forever
