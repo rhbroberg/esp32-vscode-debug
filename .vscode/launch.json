@@ -39,11 +39,19 @@
                     "text": "set substitute-path /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/freertos/port.c /Users/rhb/Development/esp/esp-idf/components/freertos/xtensa/port.c"
                 },
                 {
-                    "text": "set substitute-path /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp32/freertos_hooks.c /Users/rhb/Development/esp/esp-idf/components/esp_common/src/freertos_hooks.c"
-                }
-                ,
+                    "text": "set substitute-path /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/freertos /Users/rhb/Development/esp/esp-idf/components/freertos"
+                },
                 {
-                    "text": "set substitute-path /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf /Users/rhb/./Development/esp/esp-idf"
+                    "text": "set substitute-path /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp32/freertos_hooks.c /Users/rhb/Development/esp/esp-idf/components/esp_common/src/freertos_hooks.c"
+                },
+                {
+                    "text": "set substitute-path /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp32/ipc.c /Users/rhb/Development/esp/esp-idf/components/esp_common/src/ipc.c"
+                },
+                {
+                    "text": "set substitute-path /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp32/esp_timer.c /Users/rhb/Development/esp/esp-idf/components/esp_timer/src/esp_timer.c"
+                },
+                {
+                    "text": "set substitute-path /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp32 /Users/rhb/./Development/esp/esp-idf/components/esp32"
                 }
             ],
             "stopAtEntry": true,
